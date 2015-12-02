@@ -1,0 +1,1 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><title>BanglaNews24.com</title><meta http-equiv="refresh" content="0;http://www.banglanews24.com/"><script language="javascript">window.location="http://www.banglanews24.com/";</script></head><body></body></html>

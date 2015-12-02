@@ -1,0 +1,156 @@
+﻿*{margin:0;padding:0;-webkit-box-sizing:border-box;box-sizing:border-box;}
+body{background: #DEDEDE url("../../media/imgAll/bbg.png");font-family: SolaimanLipi,Arial,Vrinda,FallbackBengaliFont,Helvetica,sans-serif;}
+/* body::-webkit-scrollbar{width:0;} */
+#login .container {background: #fff;margin: 100px auto 50px;max-width: 300px;	border-bottom:5px solid #000;overflow:hidden;padding-bottom:15px;box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.3);}
+#login h3{color:#000; padding-bottom:5px;}
+#login .login-form{padding:5px 25px 25px;}
+#login .form-control, .form-control{border: 1px solid #ccc;border-radius: 0;box-shadow: none;}
+#login .form-control:focus{border:1px solid #000;}
+#login .btn{border: 0;border-radius: 0;box-shadow: none;background:#000;color:#fff;padding:10px;opacity:0.9;}
+#login .btn:hover{opacity:1;}
+#login .forgot {color: sienna;display: block;text-align: center;text-decoration: none;font-size:12px;}
+#login .forgot:hover{color:tomato;}
+.btn-default {text-shadow: 0 1px 0 #FFF;background-image: linear-gradient(to bottom, #FFF 0px, #E0E0E0 100%);background-repeat:repeat-x; border-color: #CCC; box-shadow: 0 1px 0 rgba(255, 255, 255, 0.15) inset, 0 1px 1px rgba(0, 0, 0, 0.075);}
+.btn-default:hover,
+.btn-default:focus {background-color: #e0e0e0;background-position: 0 -15px}
+.registration-btn{margin-top: 15px;}
+
+/*welcome css*/
+.welcome-top,.welcome-bottom{width: 100%;height: 80px;background: #000;position: absolute;}
+.welcome-top{top: 0;margin-bottom: 50px;border-bottom: 2px solid }
+.welcome-bottom{bottom: 0;}
+/* header css*/
+header {box-shadow: 0 1px 3px 0 black;width: 100%;margin-top:-50px;position:fixed;z-index:1000;backface-visibility:hidden;}
+header .syntax{background:#727272 url("../../media/imgAll/bbg.png");}
+header .syntax a {display: block;padding: 15px 0;text-decoration:none;color:#fff;}
+header .syntax  a:hover{color:#000;}
+header .top-panel{background: url("../../media/imgAll/bbg.png") #dedede;}
+header .top-panel form{}
+form #search {line-height: 25px;margin: 10px;}
+form #search input{width:84%;	margin-right:-2px;border:1px solid #888;padding:1px 10px;-webkit-transition:all 0.3s;-moz-transition:all 0.3s;-o-transition:all 0.3s;transition:all 0.3s;}
+form #search  button{width:15%;}
+form #search input:focus{border:1px solid #000;outline:none;}
+header .top-panel ul.nav{}
+header .top-panel ul.nav li{}
+header .top-panel ul.nav li a{color:#000;}
+header .top-panel ul.nav li a i{width:15px;}
+header .top-panel a i.fa-home{padding-top:10px;}
+header .top-panel ul.nav li a:hover{background:transparent;color:darkblue;}
+header .top-panel ul.nav li.dropdown {}
+header .top-panel ul.nav .dropdown a.dropdown-toggle {padding: 5px 10px 0; line-height:40px;}
+header .top-panel ul.nav .dropdown .dropdown-menu{}
+header .top-panel ul.nav .dropdown .dropdown-menu li{}
+header .top-panel ul.nav .dropdown .dropdown-menu li a{}
+header .top-panel ul.nav .dropdown .dropdown-menu li a:hover{}
+
+/* main css */
+.main{margin-top:50px;z-index:-1;}
+.main .side-menu {padding-right:0;padding-left:0;}
+.main .panel{border:0;border-radius:0;margin-top:0!important;box-shadow:none;border-top:1px solid #ccc;background:transparent;}
+.main .panel .list i { display: inline-block;width: 15px;}
+.main .panel .list a{display:block;padding:10px 15px;text-decoration:none;color:#000;}
+.main .panel  a:hover,
+.main .panel  a:focus{background:#CCCCCC;	outline:none;}
+.main .panel .list-items{background:#404040;}
+.main .panel .list-items ul{list-style:none;margin:0;padding:0;}
+.main .panel .list-items ul li{color:#f1f1f1;  border-bottom: 1px solid #262626;}
+.main .panel .list-items ul li a{display:inline-block;padding:10px 5px;text-decoration:none;background:transparent;color:#f1f1f1;}
+.main .panel .list-items ul li:hover{background:#505050;color:#fff;}
+
+/*main-details css*/
+.main-details {box-shadow: -1px 1px 2px 0 #464646;background:#fff;}
+.main-details .row{margin-bottom:10px;}
+.main-details .quick-list{margin-top:15px;}
+.main-details  .form-control{border:1px solid #888;border-radius:0;box-shadow:none;}
+.main-details  .form-control:focus{border-color:#000;}
+.main-details .has-feedback .warning {color: red;font-size: 10px;right: 11px;top: 12px;}
+
+/* list page css*/
+.table   tr  th:nth-child(1){width:5%;}
+.webMediaTable .table   tr  th:nth-child(1){width:35%;}
+.table   tr  th:nth-child(2){width:15%;}
+.webMediaTable .table   tr  th:nth-child(2){width:55%;}
+.table   tr  th:nth-child(3){width:25%;}
+.webMediaTable .table   tr  th:nth-child(3){width:10%;}
+.table   tr  th:last-child{}
+.table   tr th{width:5%;}
+.table   tr th.td-time{width:8%;}
+.table   tr td h3{margin:0;padding:0;font-size:20px;}
+.table   tr  td:hover, .table   tr  th:hover{background-color: #f0f0f0;}
+.table button.btn-sm{width:100px;margin-bottom:5px; padding-right:5px;padding-left:5px;}
+.modal-header {border-bottom: 2px solid #666;}
+.modal-body{background:#f9f9f9;}
+.modal-footer{border-top: 2px solid #666;}
+
+/*  insert-tab css*/
+.nav-tabs {margin-top: 10px;}
+.posInner-color{color: #fff;background: #888;}
+.posHome-color{color: #fff; background: #b7b7b7;}
+
+/* news-letter css*/
+.news-letter{margin-top: 50px;}
+.dual-list .list-group {
+    margin-top: 8px;
+}
+
+.list-left li, .list-right li {
+    cursor: pointer;
+}
+
+.list-arrows {
+    padding-top: 0;
+    display: inline-block;
+}
+
+.list-arrows button {
+    margin-bottom: 0;
+}
+
+
+/* photo-gallery css*/
+.photo-gallery{}
+.photo-gallery form{}
+.photo-gallery .panel{border: 1px solid #f1f1f1;border-radius: 3px;}
+.photo-gallery .panel-heading{padding: 5px;background: #f1f1f1; border-bottom: 0;}
+.photo-gallery .panel-body{padding: 5px;}
+.photo-gallery .panel-body img{max-height: 160px;margin: auto;}
+.photo-gallery .panel-body p{padding: 10px 0 0;}
+
+
+/* admin css*/
+.main .panel .list-items .admin-menu li{
+    display: block;
+    border-bottom: 1px solid #262626;
+    padding: 10px;
+}
+.main .panel .list-items .admin-menu li a{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+.main .panel .list-items .admin-menu li a:hover,
+a:hover .label{
+    text-decoration: underline;
+}
+.main .panel .list-items .admin-menu li .label{
+    font-size: 13px;
+    font-weight: 100;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+.main .panel .list-items .admin-menu li .label:hover{
+
+}
+.main .panel .list-items .admin-menu li:hover,
+.main .panel .list-items .admin-menu li a:hover{background:transparent;color:#fff;}
+
+
+
+
+
+
+
+
+
+
+
